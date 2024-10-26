@@ -1,4 +1,4 @@
-<div class="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs">
+<div appHoverCard class="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs relative transition-all">
     <img class="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" [src]='user.avatar' alt="user photo">
     <h1 class="text-lg text-gray-700"> {{user.first_name}} {{user.last_name}} </h1>
     <h3 class="text-sm text-gray-400 "> {{user.email}} </h3>

@@ -17,12 +17,12 @@ export class HomeComponent {
 
   ngOnInit(): void {
     this._UserService.getUsersPage('1').subscribe((res) => {
-      console.log(res);
+      // console.log(res);
       this.allUsers = res.data;
     });
 
     this._UserService.getUserById('1').subscribe((res) => {
-      console.log(res);
+      // console.log(res);
     });
   }
 }
